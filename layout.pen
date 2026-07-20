@@ -2169,7 +2169,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "images/generated-1784520735369.png",
+                "url": "images/map_of_porto%20alegre.webp",
                 "mode": "fill"
               },
               "cornerRadius": 8,
@@ -4741,7 +4741,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/generated-1784520735146.png",
+                    "url": "images/map_of_porto%20alegre.webp",
                     "mode": "fill"
                   },
                   "cornerRadius": 8,
