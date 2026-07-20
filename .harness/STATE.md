@@ -2,14 +2,16 @@
 
 ## ⏳ PRÓXIMA TAREFA ATÔMICA
 
-- Ativar o **Agente Designer** e o **Agente Desenvolvedor** via OpenCode para criar a estrutura e o código da seção **Hero principal**, aplicando a imagem do dentista/clínica, a Proposta Única de Valor (UVP) do briefing e o botão de conversão verde WhatsApp Mobile-First.
+- Ativar o **Agente Desenvolvedor** (`developer.md`) via OpenCode para ler o layout finalizado em `layout.pen` e gerar o arquivo de entrada principal `src/app/page.tsx`, importando as cascas de todas as 8 seções da Landing Page.
 
 ## 📝 HISTÓRICO DE ENTREGAS
 
-- [x] Repositório Next.js 15 inicializado.
+- [x] Repositório Next.js 15 inicializado com Tailwind v4.
 - [x] Repositório criado no GitHub (`landing-page-odontolight`).
-- [x] Pasta `.harness` com `SPEC.md`, `LAYOUT.md` e papéis de agentes configurados.
-- [x] Paleta de cores médicas injetada no Tailwind CSS.
-- [x] Inicialização do Shadcn/ui concluída com sucesso.
-- [ ] Componente Hero Integrado (Aguardando)
-- [ ] Formulário de Agendamento com Zod (Aguardando)
+- [x] Pasta `.harness` com especificações e papéis configurada.
+- [x] Guia de UI do Pencil.dev gerado em `PENCIL_GUIDE.md`.
+- [x] Estrutura inicial de componentes criada em `src/components/sections/`.
+- [x] Layout visual desenhado no Pencil.dev (`layout.pen`).
+- [x] Revisão técnica e visual executada e correções aplicadas com sucesso.
+- [ ] Estrutura do `page.tsx` integrada (Aguardando)
+- [ ] Componente Hero Codificado (Aguardando)
