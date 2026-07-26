@@ -1,5 +1,5 @@
 ---
-model: gemini-3-flash
+model: antigravity-gemini-3-flash
 temperature: 0.0
 ---
 

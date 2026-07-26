@@ -11,7 +11,7 @@
 
 ## ⏳ PRÓXIMA TAREFA ATÔMICA
 
-- Onda 01: Fundação de Layout e Estilos Globais (Aguardando ativação do Agente Desenvolvedor).
+- Onda 02: Componente Hero.tsx integrado (UVP à esquerda, Prova Social do Google e CTA expandido).
 
 ---
 
@@ -25,7 +25,7 @@
 - [x] Criação do arquivo de layout visual baseado em metadados (`layout.pen`).
 - [x] Homologação e aplicação da Auditoria de CRO/QA no design do wireframe.
 - [x] Criação do orquestrador central `src/app/page.tsx` com as tags `<main>`.
-- [ ] Geração das cascas dos componentes vazios de seção (Aguardando)
+- [x] Geração das cascas dos componentes vazios de seção.
 
 ### 🎨 ONDA 02: INTERFACE ESTÁTICA (MOBILE-FIRST E CRO)
 
