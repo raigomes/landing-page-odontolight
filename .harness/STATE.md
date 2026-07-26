@@ -11,7 +11,7 @@
 
 ## ⏳ PRÓXIMA TAREFA ATÔMICA
 
-- Onda 02: Componente Hero.tsx integrado (UVP à esquerda, Prova Social do Google e CTA expandido).
+- Onda 02: Componente Services.tsx integrado (Grid responsivo de 1 a 4 colunas com Chips interativos).
 
 ---
 
@@ -29,7 +29,7 @@
 
 ### 🎨 ONDA 02: INTERFACE ESTÁTICA (MOBILE-FIRST E CRO)
 
-- [ ] Componente `Hero.tsx` integrado (UVP à esquerda, Prova Social do Google e CTA expandido).
+- [x] Componente `Hero.tsx` integrado (UVP à esquerda, Prova Social do Google e CTA expandido).
 - [ ] Componente `Services.tsx` integrado (Grid responsivo de 1 a 4 colunas com Chips interativos).
 - [ ] Componentes institucionais: `About.tsx`, `Gallery.tsx` e `Testimonials.tsx` (Com paginação horizontal).
 - [ ] Componentes de fechamento: `Faq.tsx` (Accordion com ícone '+') e `Footer.tsx` (Mapa semântico).
