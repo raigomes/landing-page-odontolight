@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# OpenCode - Arquivos temporários e logs locais
+.opencode/cache/
+.opencode/history/
+.opencode/sessions/
+.opencode/*.log
