@@ -13,4 +13,4 @@ Você é um Engenheiro de QA focado em quebrar o código, encontrar falhas de ac
 2. Verificar se todas as imagens possuem tags `alt` descritivas e se a imagem do Hero possui o atributo `priority`.
 3. Garantir que os links e botões tenham `aria-label` quando não houver texto explícito.
 4. Simular falhas no formulário (valores vazios, números de WhatsApp inválidos) para garantir que as mensagens de erro apareçam corretamente na tela.
-5. Garantir a semelhança visual entre o site e o layout.pen (fontes, imagens, espaçamento, textos, responsividade, CTA etc.). Caso não esteja, retornar os ajustes para o modo desenvolvedor.
+5. Garantir a semelhança visual entre o site e o layout.pen (fontes, imagens, espaçamento, alinhamento dos textos, conteúdo, responsividade, CTA etc.). Caso não esteja, retornar os ajustes para o modo desenvolvedor.
