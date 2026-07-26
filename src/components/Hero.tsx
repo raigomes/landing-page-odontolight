@@ -7,12 +7,12 @@ export function Hero() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-5 md:gap-16">
           {/* HL (Hero Left Column) */}
-          <div className="w-full lg:flex-1 flex flex-col items-center lg:items-start text-center lg:text-left gap-5">
+          <div className="w-full lg:flex-1 flex flex-col items-center lg:items-start text-center lg:text-left gap-5 lg:gap-6">
             <h1 className="text-[26px] md:text-[40px] font-bold text-brand-dark leading-tight tracking-tight">
               Clínica Odontológica em Porto Alegre
             </h1>
             
-            <p className="text-base md:text-lg text-slate-600 leading-relaxed font-normal">
+            <p className="text-base md:text-lg text-slate-600 leading-normal font-normal">
               Sorriso dos seus sonhos está mais perto do que você imagina. Agende sua consulta e descubra o poder de uma saúde bucal de qualidade.
             </p>
             
@@ -31,7 +31,7 @@ export function Hero() {
             </div>
 
             {/* ImgPH (Only visible on mobile, positioned after SocialProof and before Tr) */}
-            <div className="lg:hidden w-full relative h-[200px] rounded-xl overflow-hidden border-2 border-slate-300">
+            <div className="lg:hidden w-full relative h-[200px] rounded-xl overflow-hidden border-2 border-slate-400">
               <Image
                 src="https://images.unsplash.com/photo-1659989693492-242b1bd65784?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1MjAyNzh8&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="Paciente sorrindo no atendimento odontológico Odontolight"
