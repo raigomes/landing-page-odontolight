@@ -34,3 +34,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Orquestrador do Harness
+
+```
+
+                  ┌──────────────────────────────────────────┐
+                  │      ORQUESTRADOR (Gemini 3 Flash)       │
+                  │   Lê o STATE.md e decide o próximo passo │
+                  └────────────────────┬─────────────────────┘
+                                       │
+            ┌──────────────────────────┴──────────────────────────┐
+            ▼                                                     ▼
+┌──────────────────────┐                               ┌──────────────────────┐
+│     ROLE: DEV        │                               │      ROLE: QA        │
+│  (DeepSeek V4)       │                               │   (Gemini 3 Flash)   │
+│                      │                               │                      │
+│ Escreve o código TSX │                               │ Auditores de WCAG/   │
+│ e Next.js 15         │                               │ Build / Atualiza     │
+|                      |                               │ o STATE.md [x]       │
+└──────────────────────┘                               └──────────────────────┘
+```
