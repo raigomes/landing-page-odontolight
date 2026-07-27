@@ -48,14 +48,14 @@ export function Gallery() {
             {images.map((image, index) => (
               <div
                 key={index}
-                className="flex-[1_1_calc(50%_-_0.5rem)] relative h-32 rounded-lg overflow-hidden bg-slate-200"
+                className="flex-[1_1_calc(50%_-_0.5rem)] relative h-32 rounded-lg overflow-hidden bg-slate-200 group cursor-pointer transition-shadow duration-300 hover:shadow-lg"
               >
                 <Image
                   src={image.src}
                   alt={image.alt}
                   fill
                   sizes="50vw"
-                  className="object-cover"
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
             ))}
@@ -68,14 +68,14 @@ export function Gallery() {
             {images.map((image, index) => (
               <div
                 key={index}
-                className="flex-[1_1_calc(33.333%_-_1rem)] relative h-64 rounded-xl overflow-hidden bg-slate-200"
+                className="flex-[1_1_calc(33.333%_-_1rem)] relative h-64 rounded-xl overflow-hidden bg-slate-200 group cursor-pointer transition-shadow duration-300 hover:shadow-xl"
               >
                 <Image
                   src={image.src}
                   alt={image.alt}
                   fill
                   sizes="50vw"
-                  className="object-cover"
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
             ))}
