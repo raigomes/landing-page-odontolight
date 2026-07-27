@@ -12,7 +12,7 @@ export function Footer() {
             src="/logo.png"
             alt="Odontolight - Clínica Odontológica"
             width={120}
-            height={40}
+            height={26}
             priority
           />
           <span className="text-sm text-slate-400">

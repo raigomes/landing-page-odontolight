@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 const testimonials = [
   {
@@ -29,12 +29,16 @@ export function Testimonials() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
 
-  function handleScroll() {
+  useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
-    const idx = Math.round(el.scrollLeft / STEP);
-    setActive(Math.min(idx, testimonials.length - 1));
-  }
+    const handler = () => {
+      const idx = Math.round(el.scrollLeft / STEP);
+      setActive(Math.min(idx, testimonials.length - 1));
+    };
+    el.addEventListener("scroll", handler, { passive: true });
+    return () => el.removeEventListener("scroll", handler);
+  }, []);
 
   return (
     <section
@@ -49,7 +53,6 @@ export function Testimonials() {
         {/* Mobile: horizontal scroll carousel */}
         <div
           ref={scrollRef}
-          onScroll={handleScroll}
           className="lg:hidden overflow-x-auto -mx-4 px-4 snap-x snap-mandatory scrollbar-hide"
         >
           <div className="flex gap-2.5 w-max">

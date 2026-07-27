@@ -28,7 +28,7 @@ export function Header() {
           src="/logo.png"
           alt="Odontolight - Clínica Odontológica"
           width={120}
-          height={40}
+          height={26}
           priority
         />
 

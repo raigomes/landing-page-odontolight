@@ -6,7 +6,7 @@ import { About } from "@/components/About";
 import { Testimonials } from "@/components/Testimonials";
 import { Gallery } from "@/components/Gallery";
 import { Faq } from "@/components/Faq";
-import { BookingForm } from "@/components/BookingForm";
+import { LazyBookingForm } from "@/components/LazyBookingForm";
 import { Footer } from "@/components/Footer";
 import { WhatsappButton } from "@/components/WhatsappButton";
 
@@ -21,7 +21,7 @@ export default function Home() {
         <Testimonials />
         <Gallery />
         <Faq />
-        <BookingForm />
+        <LazyBookingForm />
       </main>
       <Footer />
       <WhatsappButton />
