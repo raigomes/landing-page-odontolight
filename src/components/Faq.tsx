@@ -55,6 +55,8 @@ export function Faq() {
                 <button
                   type="button"
                   onClick={() => toggle(i)}
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${i}`}
                   className="w-full flex items-center justify-between px-5 py-4 text-left"
                 >
                   <span className="text-base font-medium text-brand-dark flex-1 pr-4">
@@ -69,7 +71,7 @@ export function Faq() {
                   </span>
                 </button>
                 {isOpen && (
-                  <div className="px-5 pb-4">
+                  <div id={`faq-answer-${i}`} className="px-5 pb-4">
                     <p className="text-sm text-slate-600 leading-relaxed">
                       {faq.answer}
                     </p>
