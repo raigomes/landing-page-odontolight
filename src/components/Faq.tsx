@@ -32,7 +32,10 @@ export function Faq() {
   }
 
   return (
-    <section id="faq" className="w-full bg-white py-12 px-4 md:py-16 lg:py-16 lg:px-[260px] scroll-mt-16">
+    <section
+      id="faq"
+      className="w-full bg-white py-12 px-4 md:py-16 lg:py-16 lg:px-[260px] scroll-mt-16"
+    >
       <div className="max-w-7xl mx-auto flex flex-col gap-6 lg:gap-6">
         <h2 className="text-[22px] font-bold text-brand-dark leading-tight">
           Perguntas frequentes
@@ -79,7 +82,7 @@ export function Faq() {
 
         <a
           href="#booking"
-          className="text-sm font-medium text-brand-blue text-center hover:underline"
+          className="text-sm font-medium text-brand-blue hover:underline"
         >
           Ainda com dúvidas? Agende uma avaliação gratuita
         </a>
