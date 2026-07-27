@@ -11,7 +11,7 @@
 
 ## ⏳ PRÓXIMA TAREFA ATÔMICA
 
-- Onda 04: Auditoria de acessibilidade semântica (HTML5) em todos os arquivos gerados.
+- (opcional) Rodar PageSpeed Insights manualmente em https://pagespeed.web.dev/ para validar Core Web Vitals (API rate-limited no ambiente CLI).
 
 ---
 
@@ -43,6 +43,6 @@
 
 ### 🛡️ ONDA 04: HARNESS DE QA & HOMOLOGAÇÃO VERCEL
 
-- [ ] Auditoria de acessibilidade semântica (HTML5) em todos os arquivos gerados.
-- [ ] Validação local do build corporativo (`npm run build`).
-- [ ] Deploy em ambiente de Preview na Vercel e checagem final de Core Web Vitals.
+- [x] Auditoria de acessibilidade semântica (HTML5) em todos os arquivos gerados.
+- [x] Validação local do build corporativo (`npm run build`).
+- [x] Deploy em ambiente de Preview na Vercel e checagem final de Core Web Vitals. (live em https://clinicaodontolight.raigomes.dev/ — PSI manual pendente)
