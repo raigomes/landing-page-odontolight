@@ -107,7 +107,7 @@ export function FormCard({
         <button
           type="submit"
           disabled={submitting}
-          className="w-full bg-emerald-500 hover:bg-emerald-600 disabled:bg-emerald-300 text-white text-base font-semibold rounded-lg px-6 py-3.5 transition-colors flex items-center justify-center gap-2"
+          className="w-full bg-emerald-700 hover:bg-emerald-600 disabled:bg-emerald-400 text-white text-base font-semibold rounded-lg px-6 py-3.5 transition-colors flex items-center justify-center gap-2"
         >
           {submitting ? (
             <>

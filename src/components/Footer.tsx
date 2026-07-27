@@ -67,7 +67,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Fale conosco pelo WhatsApp"
-              className="w-12 h-12 rounded-full bg-emerald-500 hover:bg-emerald-600 transition-colors flex items-center justify-center"
+              className="w-12 h-12 rounded-full bg-emerald-700 hover:bg-emerald-600 transition-colors flex items-center justify-center"
             >
               <svg
                 className="w-5 h-5 text-white"

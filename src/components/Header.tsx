@@ -45,7 +45,7 @@ export function Header() {
           ))}
           <Link
             href="#booking"
-            className="inline-flex items-center justify-center px-[18px] py-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold rounded-[6px] transition-colors"
+            className="inline-flex items-center justify-center px-[18px] py-2 bg-emerald-700 hover:bg-emerald-600 text-white text-sm font-semibold rounded-[6px] transition-colors"
           >
             Agende
           </Link>
@@ -97,7 +97,7 @@ export function Header() {
           <Link
             href="#booking"
             onClick={close}
-            className="mt-2 text-center px-[18px] py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold rounded-[6px] transition-colors"
+            className="mt-2 text-center px-[18px] py-2.5 bg-emerald-700 hover:bg-emerald-600 text-white text-sm font-semibold rounded-[6px] transition-colors"
           >
             Agende
           </Link>
