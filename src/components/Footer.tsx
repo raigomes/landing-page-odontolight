@@ -204,7 +204,7 @@ export function Footer() {
               href="https://raigomes.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand-blue underline hover:no-underline"
+              className="text-white underline hover:text-brand-blue"
             >
               raigomes.dev
             </a>
