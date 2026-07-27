@@ -3,19 +3,24 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section id="hero" className="w-full bg-brand-bg py-12 px-4 md:py-20 md:px-[120px]">
+    <section
+      id="hero"
+      className="w-full bg-brand-bg py-12 px-4 md:py-20 md:px-[120px] scroll-mt-16"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-5 md:gap-16">
           {/* HL (Hero Left Column) */}
-          <div className="w-full lg:flex-1 flex flex-col items-center lg:items-start text-center lg:text-left gap-5 lg:gap-6">
-            <h1 className="text-[26px] md:text-[40px] font-bold text-brand-dark leading-tight tracking-tight">
+          <div className="w-full lg:flex-1 flex flex-col gap-5 lg:gap-6">
+            <h1 className="text-[26px] md:text-[40px] font-bold text-brand-dark leading-tight tracking-tight  text-center lg:text-left">
               Clínica Odontológica em Porto Alegre
             </h1>
-            
-            <p className="text-base md:text-lg text-slate-600 leading-normal font-normal">
-              Sorriso dos seus sonhos está mais perto do que você imagina. Agende sua consulta e descubra o poder de uma saúde bucal de qualidade.
+
+            <p className="text-base md:text-lg text-slate-600 leading-normal font-normal  text-center lg:text-left">
+              Sorriso dos seus sonhos está mais perto do que você imagina.
+              Agende sua consulta e descubra o poder de uma saúde bucal de
+              qualidade.
             </p>
-            
+
             {/* CTA Button */}
             <a
               href="#booking"
@@ -24,9 +29,9 @@ export function Hero() {
             >
               Agende sua consulta
             </a>
-            
+
             {/* Social Proof */}
-            <div className="text-[14px] font-semibold text-brand-blue">
+            <div className="text-[14px] font-semibold text-brand-blue text-left">
               ⭐ 4.9 no Google (200+ avaliações)
             </div>
 

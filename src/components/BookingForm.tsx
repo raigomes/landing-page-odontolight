@@ -63,7 +63,7 @@ export function BookingForm() {
   return (
     <section
       id="booking"
-      className="w-full bg-slate-100 py-12 px-4 lg:py-16 lg:px-[120px]"
+      className="w-full bg-slate-100 py-12 px-4 lg:py-16 lg:px-[120px] scroll-mt-16"
     >
       {sent ? (
         <div className="max-w-md mx-auto bg-white rounded-xl shadow-sm p-8 text-center flex flex-col items-center gap-4">
