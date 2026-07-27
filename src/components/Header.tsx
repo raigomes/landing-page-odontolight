@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { label: "Serviços", href: "#services" },
@@ -23,9 +24,13 @@ export function Header() {
     <header className="w-full bg-white sticky top-0 z-40">
       <div className="h-1 bg-brand-blue" />
       <div className="max-w-7xl mx-auto px-4 lg:px-0 h-16 flex items-center justify-between">
-        <span className="text-lg lg:text-xl font-bold text-brand-blue">
-          🦷 Odontolight
-        </span>
+        <Image
+          src="/logo.png"
+          alt="Odontolight - Clínica Odontológica"
+          width={120}
+          height={40}
+          priority
+        />
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">

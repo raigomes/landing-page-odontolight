@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -7,7 +8,13 @@ export function Footer() {
       <div className="hidden w-[1280px] lg:flex lg:flex-row lg:gap-12 lg:py-16 max-w-7xl mx-auto flex flex-col gap-6 lg:gap-6">
         {/* Left column: Info + Social */}
         <div className="flex flex-col gap-3.5">
-          <span className="text-xl font-bold text-white">🦷 Odontolight</span>
+          <Image
+            src="/logo.png"
+            alt="Odontolight - Clínica Odontológica"
+            width={120}
+            height={40}
+            priority
+          />
           <span className="text-sm text-slate-400">
             Rua Ramiro Barcelos, 2492, 2º andar — Porto Alegre, RS
           </span>
