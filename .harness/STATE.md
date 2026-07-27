@@ -11,7 +11,7 @@
 
 ## ⏳ PRÓXIMA TAREFA ATÔMICA
 
-- Onda 02: Componente utilitário: `WhatsappButton.tsx` (Flutuante fixo com animação e aria-label).
+- Onda 03: Criação do esquema de validação estrita de dados com `zod`.
 
 ---
 
@@ -33,7 +33,7 @@
 - [x] Componente `Services.tsx` integrado (Grid responsivo de 1 a 4 colunas com Chips interativos).
 - [x] Componentes institucionais: `About.tsx`, `Gallery.tsx` e `Testimonials.tsx` (Com paginação horizontal).
 - [x] Componentes de fechamento: `Faq.tsx` (Accordion com ícone '+') e `Footer.tsx` (Mapa semântico).
-- [ ] Componente utilitário: `WhatsappButton.tsx` (Flutuante fixo com animação e aria-label).
+- [x] Componente utilitário: `WhatsappButton.tsx` (Flutuante fixo com animação e aria-label).
 
 ### 🤖 ONDA 03: ENGENHARIA DE FORMULÁRIO & INTEGRAÇÕES
 
