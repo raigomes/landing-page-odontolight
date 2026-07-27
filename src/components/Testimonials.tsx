@@ -66,7 +66,7 @@ export function Testimonials() {
                 <span className="text-base font-semibold text-brand-dark lg:text-center">
                   {t.name}
                 </span>
-                <span className="text-base text-amber-400 lg:text-center">
+                <span className="text-base text-amber-400 lg:text-center" aria-hidden="true">
                   ★★★★★
                 </span>
                 <p className="text-[15px] text-slate-600 leading-snug italic">
@@ -104,7 +104,7 @@ export function Testimonials() {
               <span className="text-base font-semibold text-brand-dark">
                 {t.name}
               </span>
-              <span className="text-base text-amber-400">★★★★★</span>
+              <span className="text-base text-amber-400" aria-hidden="true">★★★★★</span>
               <p className="text-[15px] text-slate-600 leading-snug italic text-center">
                 {t.quote}
               </p>
@@ -113,7 +113,7 @@ export function Testimonials() {
         </div>
 
         <p className="hidden md:flex text-sm text-slate-600 text-center">
-          Nota 4.9 ★★★★★ no Google
+          Nota 4.9 <span aria-hidden="true">★★★★★</span><span className="sr-only">(5 estrelas)</span> no Google
         </p>
       </div>
     </section>

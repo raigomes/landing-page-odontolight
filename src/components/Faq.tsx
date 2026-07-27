@@ -1,6 +1,4 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 
 const faqs = [
   {
@@ -25,12 +23,6 @@ const faqs = [
 ];
 
 export function Faq() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
-
-  function toggle(index: number) {
-    setOpenIndex(openIndex === index ? null : index);
-  }
-
   return (
     <section
       id="faq"
@@ -45,41 +37,26 @@ export function Faq() {
         </p>
 
         <div className="flex flex-col gap-6">
-          {faqs.map((faq, i) => {
-            const isOpen = openIndex === i;
-            return (
-              <div
-                key={i}
-                className="bg-white rounded-lg overflow-hidden shadow-[0_2px_4px_rgba(0,0,0,0.05)]"
-              >
-                <button
-                  type="button"
-                  onClick={() => toggle(i)}
-                  aria-expanded={isOpen}
-                  aria-controls={`faq-answer-${i}`}
-                  className="w-full flex items-center justify-between px-5 py-4 text-left"
-                >
-                  <span className="text-base font-medium text-brand-dark flex-1 pr-4">
-                    {faq.question}
-                  </span>
-                  <span
-                    className={`text-lg font-bold text-brand-blue shrink-0 transition-transform duration-200 ${
-                      isOpen ? "rotate-45" : ""
-                    }`}
-                  >
-                    +
-                  </span>
-                </button>
-                {isOpen && (
-                  <div id={`faq-answer-${i}`} className="px-5 pb-4">
-                    <p className="text-sm text-slate-600 leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </div>
-                )}
+          {faqs.map((faq, i) => (
+            <details
+              key={i}
+              className="bg-white rounded-lg overflow-hidden shadow-[0_2px_4px_rgba(0,0,0,0.05)] group"
+            >
+              <summary className="w-full flex items-center justify-between px-5 py-4 text-left cursor-pointer list-none">
+                <span className="text-base font-medium text-brand-dark flex-1 pr-4">
+                  {faq.question}
+                </span>
+                <span className="text-lg font-bold text-brand-blue shrink-0 transition-transform duration-200 group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <div className="px-5 pb-4">
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  {faq.answer}
+                </p>
               </div>
-            );
-          })}
+            </details>
+          ))}
         </div>
 
         <a

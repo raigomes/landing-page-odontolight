@@ -11,7 +11,7 @@
 
 ## ⏳ PRÓXIMA TAREFA ATÔMICA
 
-- (opcional) Rodar PageSpeed Insights manualmente em https://pagespeed.web.dev/ para validar Core Web Vitals (API rate-limited no ambiente CLI).
+- (todas as ondas concluídas) Nenhuma próxima tarefa — projeto finalizado.
 
 ---
 
@@ -45,4 +45,7 @@
 
 - [x] Auditoria de acessibilidade semântica (HTML5) em todos os arquivos gerados.
 - [x] Validação local do build corporativo (`npm run build`).
-- [x] Deploy em ambiente de Preview na Vercel e checagem final de Core Web Vitals. (live em https://clinicaodontolight.raigomes.dev/ — PSI manual pendente)
+- [x] Deploy em ambiente de Preview na Vercel e checagem final de Core Web Vitals. (live em https://clinicaodontolight.raigomes.dev/)
+  - 📱 Mobile: Performance **92**, Acessibilidade **92**, Boas Práticas **96**, SEO **100** — LCP 2.9s ✅
+  - 🖥️ Desktop: Performance **100**, Acessibilidade **92**, Boas Práticas **100**, SEO **100** — LCP 0.7s ✅
+  - QA Final: **APROVADO** (0 bloqueios, 5/5 obrigações PASS)

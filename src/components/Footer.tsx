@@ -191,11 +191,11 @@ export function Footer() {
       {/* Copyright - Full width */}
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto py-4 px-4 lg:px-[120px] flex flex-col gap-2.5">
-          <p className="text-xs text-slate-500 text-center">
+          <p className="text-xs text-slate-400 text-center">
             © {new Date().getFullYear()} Odontolight. Todos os direitos
             reservados.
           </p>
-          <p className="text-xs text-slate-600 text-center leading-relaxed">
+          <p className="text-xs text-slate-400 text-center leading-relaxed">
             Aviso: Este é um site experimental/pessoal, não uma entidade
             comercial. Todo o conteúdo é fictício ou destinado apenas a fins de
             demonstração de design e desenvolvimento. Para saber mais sobre meu
@@ -204,7 +204,7 @@ export function Footer() {
               href="https://raigomes.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand-blue hover:underline"
+              className="text-brand-blue underline hover:no-underline"
             >
               raigomes.dev
             </a>
