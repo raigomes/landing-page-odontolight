@@ -42,6 +42,7 @@ export function Hero() {
                 alt="Paciente sorrindo no atendimento odontológico Odontolight"
                 fill
                 priority
+                fetchPriority="high"
                 sizes="100vw"
                 className="object-cover"
               />
