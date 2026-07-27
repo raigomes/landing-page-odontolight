@@ -11,7 +11,7 @@
 
 ## ⏳ PRÓXIMA TAREFA ATÔMICA
 
-- Onda 02: Componentes institucionais: About.tsx, Gallery.tsx e Testimonials.tsx (Com paginação horizontal).
+- Onda 02: Componentes de fechamento: Faq.tsx (Accordion com ícone '+') e Footer.tsx (Mapa semântico).
 
 ---
 
@@ -31,7 +31,7 @@
 
 - [x] Componente `Hero.tsx` integrado (UVP à esquerda, Prova Social do Google e CTA expandido).
 - [x] Componente `Services.tsx` integrado (Grid responsivo de 1 a 4 colunas com Chips interativos).
-- [ ] Componentes institucionais: `About.tsx`, `Gallery.tsx` e `Testimonials.tsx` (Com paginação horizontal).
+- [x] Componentes institucionais: `About.tsx`, `Gallery.tsx` e `Testimonials.tsx` (Com paginação horizontal).
 - [ ] Componentes de fechamento: `Faq.tsx` (Accordion com ícone '+') e `Footer.tsx` (Mapa semântico).
 - [ ] Componente utilitário: `WhatsappButton.tsx` (Flutuante fixo com animação e aria-label).
 
