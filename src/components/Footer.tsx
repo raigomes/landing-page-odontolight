@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className="w-full bg-brand-dark">
       {/* Desktop: horizontal row */}
-      <div className="hidden w-[1200px] lg:flex lg:flex-row lg:gap-12 lg:py-16 max-w-7xl mx-auto flex flex-col gap-6 lg:gap-6">
+      <div className="hidden w-[1280px] lg:flex lg:flex-row lg:gap-12 lg:py-16 max-w-7xl mx-auto flex flex-col gap-6 lg:gap-6">
         {/* Left column: Info + Social */}
         <div className="flex flex-col gap-3.5">
           <span className="text-xl font-bold text-white">🦷 Odontolight</span>
