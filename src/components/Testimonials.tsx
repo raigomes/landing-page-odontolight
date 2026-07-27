@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useRef, useState } from "react";
 
 const testimonials = [
   {
@@ -21,16 +23,35 @@ const testimonials = [
   },
 ];
 
+const STEP = 353;
+
 export function Testimonials() {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [active, setActive] = useState(0);
+
+  function handleScroll() {
+    const el = scrollRef.current;
+    if (!el) return;
+    const idx = Math.round(el.scrollLeft / STEP);
+    setActive(Math.min(idx, testimonials.length - 1));
+  }
+
   return (
-    <section id="testimonials" className="w-full bg-slate-100 py-12 px-4 md:py-16 lg:py-20 lg:px-[120px] scroll-mt-16">
+    <section
+      id="testimonials"
+      className="w-full bg-slate-100 py-12 px-4 md:py-16 lg:py-20 lg:px-[120px] scroll-mt-16"
+    >
       <div className="max-w-7xl mx-auto flex flex-col gap-5 lg:gap-6">
         <h2 className="text-[22px] font-bold text-brand-dark leading-tight">
           O que seus pacientes dizem
         </h2>
 
         {/* Mobile: horizontal scroll carousel */}
-        <div className="lg:hidden overflow-x-auto -mx-4 px-4 snap-x snap-mandatory scrollbar-hide">
+        <div
+          ref={scrollRef}
+          onScroll={handleScroll}
+          className="lg:hidden overflow-x-auto -mx-4 px-4 snap-x snap-mandatory scrollbar-hide"
+        >
           <div className="flex gap-2.5 w-max">
             {testimonials.map((t) => (
               <div
@@ -42,10 +63,10 @@ export function Testimonials() {
                     {t.initials}
                   </span>
                 </div>
-                <span className="text-base font-semibold text-brand-dark text-center">
+                <span className="text-base font-semibold text-brand-dark lg:text-center">
                   {t.name}
                 </span>
-                <span className="text-base text-amber-400 text-center">
+                <span className="text-base text-amber-400 lg:text-center">
                   ★★★★★
                 </span>
                 <p className="text-[15px] text-slate-600 leading-snug italic">
@@ -61,7 +82,9 @@ export function Testimonials() {
           {testimonials.map((_, i) => (
             <div
               key={i}
-              className={`w-2.5 h-2.5 rounded-full ${i === 0 ? "bg-brand-blue" : "bg-slate-300"}`}
+              className={`w-2.5 h-2.5 rounded-full transition-colors duration-200 ${
+                i === active ? "bg-brand-blue" : "bg-slate-300"
+              }`}
             />
           ))}
         </div>
@@ -89,7 +112,7 @@ export function Testimonials() {
           ))}
         </div>
 
-        <p className="text-sm text-slate-600 text-center">
+        <p className="hidden md:flex text-sm text-slate-600 text-center">
           Nota 4.9 ★★★★★ no Google
         </p>
       </div>
