@@ -11,7 +11,7 @@
 
 ## ⏳ PRÓXIMA TAREFA ATÔMICA
 
-- Onda 03: Criação do esquema de validação estrita de dados com `zod`.
+- Onda 04: Auditoria de acessibilidade semântica (HTML5) em todos os arquivos gerados.
 
 ---
 
@@ -37,9 +37,9 @@
 
 ### 🤖 ONDA 03: ENGENHARIA DE FORMULÁRIO & INTEGRAÇÕES
 
-- [ ] Criação do esquema de validação estrita de dados com `zod`.
-- [ ] Componentização do `BookingForm.tsx` utilizando `react-hook-form` e Chips de tratamento expostos.
-- [ ] Implementação de estado de carregamento (`spinner`) e simulação de disparo da API de WhatsApp.
+- [x] Criação do esquema de validação estrita de dados com `zod`.
+- [x] Componentização do `BookingForm.tsx` utilizando `react-hook-form` e Chips de tratamento expostos.
+- [x] Implementação de estado de carregamento (`spinner`) e simulação de disparo da API de WhatsApp.
 
 ### 🛡️ ONDA 04: HARNESS DE QA & HOMOLOGAÇÃO VERCEL
 
