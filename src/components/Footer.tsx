@@ -30,7 +30,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Siga-nos no Instagram"
-              className="w-12 h-12 rounded-2xl bg-slate-700 hover:bg-slate-600 transition-colors flex items-center justify-center"
+              className="w-12 h-12 rounded-full bg-slate-700 hover:bg-slate-600 transition-colors flex items-center justify-center"
             >
               <svg
                 className="w-5 h-5 text-white"
@@ -45,7 +45,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Curta nossa página no Facebook"
-              className="w-12 h-12 rounded-2xl bg-slate-700 hover:bg-slate-600 transition-colors flex items-center justify-center"
+              className="w-12 h-12 rounded-full bg-slate-700 hover:bg-slate-600 transition-colors flex items-center justify-center"
             >
               <svg
                 className="w-5 h-5 text-white"
@@ -60,7 +60,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Fale conosco pelo WhatsApp"
-              className="w-12 h-12 rounded-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors flex items-center justify-center"
+              className="w-12 h-12 rounded-full bg-emerald-500 hover:bg-emerald-600 transition-colors flex items-center justify-center"
             >
               <svg
                 className="w-5 h-5 text-white"
@@ -79,7 +79,7 @@ export function Footer() {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.5486057489996!2d-51.17510302343869!3d-30.05363777493238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951975e6ac24e5e3%3A0x3d6d4d6e84e3e8f2!2sRua%20Ramiro%20Barcelos%2C%202492%20-%20Floresta%2C%20Porto%20Alegre%20-%20RS%2C%2090010-001!5e0!3m2!1spt-BR!2sbr!4v1"
             width="500"
             height="240"
-            style={{ border: 0 }}
+            className="border-0"
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -126,7 +126,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Siga-nos no Instagram"
-            className="w-12 h-12 rounded-2xl bg-slate-700 hover:bg-slate-600 transition-colors flex items-center justify-center"
+            className="w-12 h-12 rounded-full bg-slate-700 hover:bg-slate-600 transition-colors flex items-center justify-center"
           >
             <svg
               className="w-5 h-5 text-white"
@@ -141,7 +141,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Curta nossa página no Facebook"
-            className="w-12 h-12 rounded-2xl bg-slate-700 hover:bg-slate-600 transition-colors flex items-center justify-center"
+            className="w-12 h-12 rounded-full bg-slate-700 hover:bg-slate-600 transition-colors flex items-center justify-center"
           >
             <svg
               className="w-5 h-5 text-white"
@@ -156,7 +156,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Fale conosco pelo WhatsApp"
-            className="w-12 h-12 rounded-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors flex items-center justify-center"
+            className="w-12 h-12 rounded-full bg-emerald-500 hover:bg-emerald-600 transition-colors flex items-center justify-center"
           >
             <svg
               className="w-5 h-5 text-white"
@@ -172,9 +172,7 @@ export function Footer() {
         <div className="w-full h-[180px] rounded-lg overflow-hidden">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.5486057489996!2d-51.17510302343869!3d-30.05363777493238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951975e6ac24e5e3%3A0x3d6d4d6e84e3e8f2!2sRua%20Ramiro%20Barcelos%2C%202492%20-%20Floresta%2C%20Porto%20Alegre%20-%20RS%2C%2090010-001!5e0!3m2!1spt-BR!2sbr!4v1"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
+            className="w-full h-full border-0"
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
