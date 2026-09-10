@@ -26,7 +26,7 @@ export function Hero() {
               <a
                 href="#booking"
                 aria-label="Agende sua consulta"
-                className="w-full md:w-[240px] text-center py-3.5 px-6 bg-brand-whatsapp hover:bg-emerald-600 text-white font-semibold rounded-lg transition-all text-base min-h-[48px] flex items-center justify-center shadow-sm"
+                className="w-full md:w-[240px] text-center py-3.5 px-6 bg-brand-blue hover:bg-blue-500 text-white font-semibold rounded-lg transition-all text-base min-h-[48px] flex items-center justify-center shadow-sm"
               >
                 Agende sua consulta
               </a>
@@ -34,7 +34,7 @@ export function Hero() {
               <a
                 href="#gallery"
                 aria-label="Veja os resultados de nossos tratamentos"
-                className="w-full md:w-[240px] text-center py-3.5 px-6 bg-white border-2 text-brand-whatsapp border-brand-whatsapp font-semibold text-[16px] py-4 px-8 rounded-lg hover:bg-brand-whatsapp hover:text-white transition-all focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+                className="w-full md:w-[240px] text-center py-3.5 px-6 bg-white border-2 text-brand-blue border-brand-blue font-semibold text-[16px] py-4 px-8 rounded-lg hover:bg-brand-blue hover:text-white transition-all focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
               >
                 Resultados
               </a>
