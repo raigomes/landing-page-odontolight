@@ -5,12 +5,12 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="w-full bg-brand-bg py-12 px-4 md:py-20 md:px-[120px] scroll-mt-16"
+      className="w-full bg-brand-bg py-12 px-4 md:py-20 md:px-[120px] scroll-mt-16 relative"
     >
       <div className="max-w-7xl mx-auto">
         <div className="relative flex flex-col lg:flex-row items-center gap-5 md:gap-16">
           {/* HL (Hero Left Column) */}
-          <div className="w-full lg:flex-1 flex flex-col gap-5 max-w-3xl">
+          <div className="w-full lg:flex-1 flex flex-col gap-5 max-w-lg 2xl:max-w-3xl">
             <h1 className="text-[26px] md:text-[40px] font-bold text-brand-dark leading-tight tracking-tight  text-center lg:text-left">
               Clínica Odontológica em Porto Alegre
             </h1>
@@ -65,7 +65,7 @@ export function Hero() {
           </div>
 
           {/* HR (Hero Right Column - Desktop Only) */}
-          <div className="hidden lg:block absolute right-0 top-[-10%] w-[500px] h-[440px] rounded-2xl overflow-hidden shadow-md">
+          <div className="hidden lg:block relative xl:absolute right-0 top-[-10%] w-[500px] h-[440px] rounded-2xl overflow-hidden shadow-md">
             <Image
               src="https://images.unsplash.com/photo-1659989693492-242b1bd65784?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1MjAyNzh8&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Atendimento odontológico de qualidade na clínica Odontolight"
